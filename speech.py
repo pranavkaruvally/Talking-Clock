@@ -2,7 +2,7 @@ import time
 import pyttsx3
 
 #ctime gives time in the format 'Day Month Date hh:mm:ss year'
-fullTime = ctime().split()[3] #This selects the hh:mm:ss
+fullTime = time.ctime().split()[3] #This selects the hh:mm:ss
 fullTime = fullTime[:5] #This selects the hh:mm
 
 text = "The time is " + fullTime #This is our line to speak out
