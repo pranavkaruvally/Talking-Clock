@@ -8,5 +8,5 @@ sudo apt -y install python3-pip
 
 pip3 install pyttsx3
 
-chmod +x speak.py
+chmod +x speaktime.py
 sudo cp speak.py /usr/bin/speak.py
